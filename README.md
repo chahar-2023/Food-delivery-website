@@ -1,3 +1,18 @@
+Food Delivery Website
+Overview This is a modern, responsive food delivery web application built using React.js and powered by the Vite build tool. The project is designed to provide a seamless user interface for browsing food items and managing a digital menu.
+
+Key Features
+
+Dynamic Menu Display: Efficiently renders various food categories and items using React's component-based architecture.
+
+Fast Performance: Leverages Vite for Hot Module Replacement (HMR), ensuring a lightning-fast development experience and optimized production builds.
+
+Responsive Design: Optimized for different screen sizes, ensuring users can order food from desktops, tablets, or smartphones.
+
+Clean Codebase: Uses ESLint for maintaining high code quality and consistency across the project.
+
+
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
