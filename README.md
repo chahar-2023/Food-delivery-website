@@ -1,15 +1,26 @@
-Food Delivery Website
-Overview This is a modern, responsive food delivery web application built using React.js and powered by the Vite build tool. The project is designed to provide a seamless user interface for browsing food items and managing a digital menu.
+This is a high-performance, responsive Frontend Food Delivery Application built as a Single Page Application (SPA). It serves as the customer-facing interface for a digital restaurant or food marketplace, focusing on speed, clean UI, and intuitive navigation.
 
-Key Features
+1. Key Features & Functionalities
+Dynamic Category Filtering: An "Explore Menu" component that allows users to filter food items by category (e.g., Rolls, Sandwiches, Deserts). Selecting a category updates the display instantly without refreshing the page.
 
-Dynamic Menu Display: Efficiently renders various food categories and items using React's component-based architecture.
+Persistent Shopping Cart: * Individual Item Tracking: Users can increment or decrement item counts directly from the food card.
 
-Fast Performance: Leverages Vite for Hot Module Replacement (HMR), ensuring a lightning-fast development experience and optimized production builds.
+Live Total Calculation: The cart automatically calculates the subtotal, adds a fixed delivery fee, and provides the final checkout amount.
 
-Responsive Design: Optimized for different screen sizes, ensuring users can order food from desktops, tablets, or smartphones.
+Authentication Flow: A LoginPopup modal system that toggles between "Login" and "Create Account" states, providing a smooth user entry point.
 
-Clean Codebase: Uses ESLint for maintaining high code quality and consistency across the project.
+Responsive Multi-Page Routing: Seamless transitions between the Home page, Cart page, and the "Place Order" screen using client-side routing.
+
+Order Information Management: A structured checkout form to collect user delivery details (Address, City, Zip Code) before finalizing an order.
+
+2. Tools & Technologies Used
+React.js: The primary framework for building the component-based architecture.
+
+Vite: Used as the modern build tool and development server, offering significantly faster HMR (Hot Module Replacement) than traditional tools.
+
+Tailwind CSS: Used for all styling. This utility-first framework allows for highly responsive designs and custom UI components without writing separate CSS files.
+
+JavaScript (ES6+): Utilized for all logic, including state management and array mapping for the menu data.
 
 
 
